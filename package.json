@@ -1,5 +1,5 @@
 {
-  "name": "dep-license-auditor",
+  "name": "@spiderjew/dep-license-auditor-cli",
   "version": "1.0.0",
   "description": "CLI auditor for NPM dependencies licenses. Flag risky OSS licenses, export reports (pro).",
   "main": "index.js",
@@ -9,7 +9,14 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
-  "keywords": ["npm", "audit", "license", "compliance", "oss", "cli"],
+  "keywords": [
+    "npm",
+    "audit",
+    "license",
+    "compliance",
+    "oss",
+    "cli"
+  ],
   "author": "Clawdbot <bot@clawd.bot>",
   "license": "MIT",
   "type": "commonjs",
@@ -17,5 +24,8 @@
     "license-checker-rseidelsohn": "^1.0.5",
     "commander": "^12.1.0",
     "puppeteer": "^23.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
